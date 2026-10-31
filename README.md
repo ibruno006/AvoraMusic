@@ -38,3 +38,5 @@ README.md
 ```
 
 `js/data.js` contém o catálogo demonstrativo. `js/app.js` concentra estado, renderização e a camada de persistência local, que pode ser substituída futuramente por clientes de API REST, autenticação e serviços próprios. Nenhuma integração com PostgreSQL ou serviço externo foi implementada.
+
+Identificação original do repositório: **AvoraMusic**.
