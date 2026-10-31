@@ -87,7 +87,7 @@
   }
 
   function logo() {
-    return `<a class="brand" href="#inicio" data-action="go" data-page="explore" aria-label="Avora, página inicial"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 36 36" fill="none"><path d="M7 25.5 16 7h4l9 18.5h-5.2l-2-4.2h-8.6l-2 4.2H7Z" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/><path d="M15 17.5h7M18.5 12v11" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="29" cy="8" r="3" fill="currentColor"/></svg></span><span>avora<span class="brand-period">.</span></span></a>`;
+    return `<a class="brand" href="#inicio" data-action="go" data-page="explore" aria-label="Avora, página inicial"><img class="brand-image" src="assets/logo-${state.theme}.png" alt="Avora"></a>`;
   }
 
   function themeToggle() {
